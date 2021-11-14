@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app {
+  text-align: center;
+}
+
+header {
+  background-color: #222;
+  padding: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+main {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.rm {
+  margin-left: 5rem;
+}
+
+.done {
+  text-decoration: line-through;
 }
